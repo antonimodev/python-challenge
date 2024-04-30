@@ -14,9 +14,9 @@
  *
  * By carefully reviewing the possibilities, you may discover something new.
  """
-##########################
+########################
 # ARITHMETIC OPERATORS #
-##########################
+########################
 
 # Addition operator
 addition = 2 + 2
@@ -46,9 +46,9 @@ print(f"Modulo operator: 2 % 2 = {modulo}")
 exponentiation = 2 ** 2
 print(f"Exponentiation operator: 2 ** 2 = {exponentiation}")
 
-######################
+#####################
 # LOGICAL OPERATORS #
-######################
+#####################
 
 # '&&' operator // 'and'
 # Returns True if both operands are true
@@ -62,9 +62,9 @@ print(f"'or' operator: True or False = {True or False}")
 # Returns True if the operand is false (complement)
 print(f"'not' operator: not True = {not True}")
 
-#############################
+########################
 # COMPARISON OPERATORS #
-#############################
+########################
 
 # '==' operator // Equal to
 # Returns True if both operands are equal
@@ -90,9 +90,9 @@ print(f"'>' operator: 10 > 20 = {10 > 20}")
 # Returns True if the left operand is greater than or equal to the right operand
 print(f"'>=' operator: 10 >= 20 = {10 >= 20}")
 
-############################
+########################
 # ASSIGNMENT OPERATORS #
-############################
+########################
 
 a = 10
 
@@ -135,12 +135,12 @@ print(f"'**=' operator: a **= 2 => a = {a}")
 a //= 2
 print(f"'//=' operator: a //= 2 => a = {a}")
 
-#######################################################
+#########################################################################################
 """ 				#	EXERCISES	#
 # Create a program that prints to the console all numbers between 10 and 55 (inclusive)
 # that are even and not equal to 16 or multiples of 3.
 """
-#######################################################
+#########################################################################################
 
 # FROM 10 TO 55. OMIT 16 AND MULTIPLES OF 3
 for i in range(10, 56):
@@ -172,10 +172,10 @@ for i in range(100, 201):
 	if (i % 5 == 0) and (i != 150) and (i % 10 != 0):
 		print(i)
 
-#######################################################
+#####################################################################
 """ 				#	EXTRA	#
 # Create a program that prints all prime numbers between 1 and 1000
 # that are also multiples of 7 but not multiples of 5.
 """
-#######################################################
+#####################################################################
 

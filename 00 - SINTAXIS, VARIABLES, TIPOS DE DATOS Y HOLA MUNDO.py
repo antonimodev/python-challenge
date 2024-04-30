@@ -7,9 +7,9 @@
  * - This first challenge will help you familiarize yourself with the way of participating
  *   by sending your own solutions.
  *
- """
 """
-#######################################################
+"""
+#########################################################################################
 # 				#	EXERCISES	#
 # Create a comment in the code and place the URL of the official website of the
 # programming language you have selected.
@@ -20,7 +20,7 @@
 # of the language (strings, integers, booleans...).
 # Print the text: "Hello, [and the name of your language]!" to the terminal.
 # Easy? Don't worry, remember that this is a study path and we must start from the beginning.
-#######################################################
+#########################################################################################
 """
 # This is a single-line comment, we use '#'. Visit the official Python website at: https://www.python.org/
 """
