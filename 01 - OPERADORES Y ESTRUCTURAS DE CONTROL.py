@@ -1,177 +1,181 @@
 """
- * EJERCICIO:
- * - Crea ejemplos utilizando todos los tipos de operadores de tu lenguaje:
- *   Aritméticos, lógicos, de comparación, asignación, identidad, pertenencia, bits...
- *   (Ten en cuenta que cada lenguaje puede poseer unos diferentes)
- * - Utilizando las operaciones con operadores que tú quieras, crea ejemplos
- *   que representen todos los tipos de estructuras de control que existan
- *   en tu lenguaje:
- *   Condicionales, iterativas, excepciones...
- * - Debes hacer print por consola del resultado de todos los ejemplos.
+ * EXERCISE:
+ * - Create examples using all types of operators in your language:
+ *   Arithmetic, logical, comparison, assignment, identity, membership, bitwise...
+ *   (Keep in mind that each language may have different operators)
+ * - Using operations with operators of your choice, create examples
+ *   that represent all types of control structures in your language:
+ *   Conditionals, loops, exceptions...
+ * - You must print the result of all examples to the console.
  *
- * DIFICULTAD EXTRA (opcional):
- * Crea un programa que imprima por consola todos los números comprendidos
- * entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
+ * EXTRA CHALLENGE (optional):
+ * Create a program that prints to the console all numbers between 10 and 55 (inclusive)
+ * that are even and not equal to 16 or multiples of 3.
  *
- * Seguro que al revisar detenidamente las posibilidades has descubierto algo nuevo.
+ * By carefully reviewing the possibilities, you may discover something new.
  """
 ##########################
-# OPERADORES ARITMÉTICOS #
+# ARITHMETIC OPERATORS #
 ##########################
 
-# Operador de suma
-suma = 2 + 2
-print(f"Operador suma: 2 + 2 = {suma}")
+# Addition operator
+addition = 2 + 2
+print(f"Addition operator: 2 + 2 = {addition}")
 
-# Operador de resta
-resta = 2 - 2
-print(f"Operador resta: 2 - 2 = {resta}")
+# Subtraction operator
+subtraction = 2 - 2
+print(f"Subtraction operator: 2 - 2 = {subtraction}")
 
-# Operador de multiplicación
-multiplicacion = 2 * 2
-print(f"Operador multiplicación: 2 * 2 = {multiplicacion}")
+# Multiplication operator
+multiplication = 2 * 2
+print(f"Multiplication operator: 2 * 2 = {multiplication}")
 
-# Operador de división
+# Division operator
 division = 2 / 2
-print(f"Operador división: 2 / 2 = {division}")
+print(f"Division operator: 2 / 2 = {division}")
 
-# Operador de división entera
-division_entera = 2 // 2
-print(f"Operador división entera: 2 // 2 = {division_entera}")
+# Integer division operator
+integer_division = 2 // 2
+print(f"Integer division operator: 2 // 2 = {integer_division}")
 
-# Operador de módulo
+# Modulo operator
 modulo = 2 % 2
-print(f"Operador módulo: 2 % 2 = {modulo}")
+print(f"Modulo operator: 2 % 2 = {modulo}")
 
-# Operador de exponente
-exponente = 2 ** 2
-print(f"Operador exponente: 2 ** 2 = {exponente}")
+# Exponentiation operator
+exponentiation = 2 ** 2
+print(f"Exponentiation operator: 2 ** 2 = {exponentiation}")
 
 ######################
-# OPERADORES LÓGICOS #
+# LOGICAL OPERATORS #
 ######################
 
-# Operador '&&' // 'and'
-# Devuelve True si los dos son verdaderos
-print(f"Operador 'and': True and False = {True and False}")
+# '&&' operator // 'and'
+# Returns True if both operands are true
+print(f"'and' operator: True and False = {True and False}")
 
-# Operador '||' // 'or'
-# Devuelve True si alguno de los dos es verdadero
-print(f"Operador 'or': True or false = {True or False}")
+# '||' operator // 'or'
+# Returns True if either operand is true
+print(f"'or' operator: True or False = {True or False}")
 
-# Operador 'not'
-# Devuelve True si el operando es falso (complemento)
-print(f"Operador 'not': not True = {not True}")
+# 'not' operator
+# Returns True if the operand is false (complement)
+print(f"'not' operator: not True = {not True}")
 
 #############################
-# OPERADORES DE COMPARACIÓN #
+# COMPARISON OPERATORS #
 #############################
 
-# Operador '==' // Igual que
-# Devuelve True si los dos operandos son iguales
-print(f"Operador '==': 10 == 20 = {10 == 20}")
+# '==' operator // Equal to
+# Returns True if both operands are equal
+print(f"'==' operator: 10 == 20 = {10 == 20}")
 
-# Operador '!=' // No es igual que
-# Devuelve True si los dos operandos son diferentes
-print(f"Operador '!=': 10 != 20 = {10 != 20}")
+# '!=' operator // Not equal to
+# Returns True if both operands are different
+print(f"'!=' operator: 10 != 20 = {10 != 20}")
 
-# Operador '<' // Menor que
-# Devuelve True si el operando de la izquierda es menor que el de la derecha
-print(f"Operador '<': 10 < 20 = {10 < 20}")
+# '<' operator // Less than
+# Returns True if the left operand is less than the right operand
+print(f"'<' operator: 10 < 20 = {10 < 20}")
 
-# Operador '<=' // Menor o igual que
-# Devuelve True si el operando de la izquierda es menor o igual que el de la derecha
-print(f"Operador '<=': 10 <= 20 = {10 <= 20}")
+# '<=' operator // Less than or equal to
+# Returns True if the left operand is less than or equal to the right operand
+print(f"'<=' operator: 10 <= 20 = {10 <= 20}")
 
-# Operador '>' // Mayor que
-# Devuelve True si el operando de la izquierda es mayor que el de la derecha
-print(f"Operador '>': 10 > 20 = {10 > 20}")
+# '>' operator // Greater than
+# Returns True if the left operand is greater than the right operand
+print(f"'>' operator: 10 > 20 = {10 > 20}")
 
-# Operador '>=' // Mayor o igual que
-# Devuelve True si el operando de la izquierda es mayor o igual que el de la derecha
-print(f"Operador '>=': 10 >= 20 = {10 >= 20}")
+# '>=' operator // Greater than or equal to
+# Returns True if the left operand is greater than or equal to the right operand
+print(f"'>=' operator: 10 >= 20 = {10 >= 20}")
 
 ############################
-# OPERADORES DE ASIGNACIÓN #
+# ASSIGNMENT OPERATORS #
 ############################
 
 a = 10
 
-# Operador '=' // Asignación
-# Asigna el valor del operando de la derecha al operando de la izquierda
-print(f"Operador '=': a = 10 => a = {a}")
+# '=' operator // Assignment
+# Assigns the value of the right operand to the left operand
+print(f"'=' operator: a = 10 => a = {a}")
 
-# Operador '+=' // Suma y asignación
-# Suma el operando de la derecha al operando de la izquierda y asigna el resultado al operando de la izquierda
+# '+=' operator // Addition and assignment
+# Adds the right operand to the left operand and assigns the result to the left operand
 a += 5
-print(f"Operador '+=': a += 5 => a = {a}")
+print(f"'+=' operator: a += 5 => a = {a}")
 
-# Operador '-=' // Resta y asignación
-# Resta el operando de la derecha al operando de la izquierda y asigna el resultado al operando de la izquierda
+# '-=' operator // Subtraction and assignment
+# Subtracts the right operand from the left operand and assigns the result to the left operand
 a -= 2
-print(f"Operador '-=': a -= 2 => a = {a}")
+print(f"'-=' operator: a -= 2 => a = {a}")
 
-# Operador '*=' // Multiplicación y asignación
-# Multiplica el operando de la derecha por el operando de la izquierda y asigna el resultado al operando de la izquierda
+# '*=' operator // Multiplication and assignment
+# Multiplies the right operand by the left operand and assigns the result to the left operand
 a *= 3
-print(f"Operador '*=': a *= 3 => a = {a}")
+print(f"'*=' operator: a *= 3 => a = {a}")
 
-# Operador '/=' // División y asignación
-# Divide el operando de la izquierda por el operando de la derecha y asigna el resultado al operando de la izquierda
+# '/=' operator // Division and assignment
+# Divides the left operand by the right operand and assigns the result to the left operand
 a /= 4
-print(f"Operador '/=': a /= 4 => a = {a}")
+print(f"'/=' operator: a /= 4 => a = {a}")
 
-# Operador '%=' // Módulo y asignación
-# Toma el módulo del operando de la izquierda con el operando de la derecha y asigna el resultado al operando de la izquierda
+# '%=' operator // Modulo and assignment
+# Takes the modulo of the left operand with the right operand and assigns the result to the left operand
 a %= 3
-print(f"Operador '%=': a %= 3 => a = {a}")
+print(f"'%=' operator: a %= 3 => a = {a}")
 
-# Operador '**=' // Exponente y asignación
-# Eleva el operando de la izquierda al exponente del operando de la derecha y asigna el resultado al operando de la izquierda
+# '**=' operator // Exponentiation and assignment
+# Raises the left operand to the power of the right operand and assigns the result to the left operand
 a **= 2
-print(f"Operador '**=': a **= 2 => a = {a}")
+print(f"'**=' operator: a **= 2 => a = {a}")
 
-# Operador '//=' // División entera y asignación
-# Divide el operando de la izquierda por el operando de la derecha, redondea el resultado hacia abajo a la entera más cercana y asigna el resultado al operando de la izquierda
+# '//=' operator // Integer division and assignment
+# Divides the left operand by the right operand, rounds the result down to the nearest integer, and assigns the result to the left operand
 a //= 2
-print(f"Operador '//=': a //= 2 => a = {a}")
+print(f"'//=' operator: a //= 2 => a = {a}")
 
 #######################################################
-""" 				#	EJERCICIOS	#
-Crea un programa que imprima por consola todos los números comprendidos
-entre 10 y 55 (incluidos), pares, y que no son ni el 16 ni múltiplos de 3.
+""" 				#	EXERCISES	#
+# Create a program that prints to the console all numbers between 10 and 55 (inclusive)
+# that are even and not equal to 16 or multiples of 3.
 """
 #######################################################
 
-# DEL 10 AL 55. OMITIR 16 Y MÚLTIPLOS DE 3
+# FROM 10 TO 55. OMIT 16 AND MULTIPLES OF 3
 for i in range(10, 56):
 	if (i % 2 == 0) and (i != 16) and (i % 3 != 0):
 		print(i)
 
-# DEL 20 AL 100. OMITIR MÚLTIPLOS DE 5
+# FROM 20 TO 100. OMIT MULTIPLES OF 5
 for i in range(20, 101):
 	if (i % 5 != 0):
 		print(i)
 
-# DEL 1 AL 1000 MÚLTIPLOS DE 7. OMITIR MÚLTIPLOS DE 5
+# FROM 1 TO 1000. MULTIPLES OF 7. OMIT MULTIPLES OF 5
 for i in range(1, 1001):
 	if (i % 7 == 0) and (i % 5 != 0):
 		print(i)
 
-# DEL 50 AL 150. MÚLTIPLOS DE 3 Y 5. OMITIR MÚLTIPLOS DE 10
+# FROM 50 TO 150. MULTIPLES OF 3 AND 5. OMIT MULTIPLES OF 10
 for i in range(50, 151):
 	if (i % 3 == 0) and (i % 5 == 0) and (i % 10 != 0):
 		print(i)
 
-# DEL 200 AL 300. MÚLTIPLOS DE 4. OMITIR MÚLTIPLOS DE 6 Y 8
+# FROM 200 TO 300. MULTIPLES OF 4. OMIT MULTIPLES OF 6 AND 8
 for i in range(200, 301):
 	if (i % 4 == 0) and (i % 6 != 0) and (i % 8 != 0):
 		print(i)
 
-# DEL 100 AL 200. MÚLTIPLOS DE 5. OMITIR EL 150 Y MÚLTIPLOS DE 10
+# FROM 100 TO 200. MULTIPLES OF 5. OMIT 150 AND MULTIPLES OF 10
 for i in range(100, 201):
 	if (i % 5 == 0) and (i != 150) and (i % 10 != 0):
 		print(i)
 
-# Crea un programa que imprima todos los números primos entre 1 y 1000
-# que también sean múltiplos de 7 pero no de 5.
+#######################################################
+""" 				#	EXTRA	#
+# Create a program that prints all prime numbers between 1 and 1000
+# that are also multiples of 7 but not multiples of 5.
+"""
+#######################################################
+

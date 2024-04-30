@@ -1,38 +1,39 @@
 """
- * ¿Preparad@ para aprender o repasar el lenguaje de programación que tú quieras?
- * - Recuerda que todas las instrucciones de participación están en el
- *   repositorio de GitHub.
+ * Are you ready to learn or review the programming language of your choice?
+ * - Remember that all participation instructions are in the GitHub repository.
  *
- * Lo primero... ¿Ya has elegido un lenguaje?
- * - No todos son iguales, pero sus fundamentos suelen ser comunes.
- * - Este primer reto te servirá para familiarizarte con la forma de participar
- *   enviando tus propias soluciones.
+ * First... Have you chosen a language?
+ * - They are not all the same, but their fundamentals are usually common.
+ * - This first challenge will help you familiarize yourself with the way of participating
+ *   by sending your own solutions.
  *
- * EJERCICIO:
- * - Crea un comentario en el código y coloca la URL del sitio web oficial del
- *   lenguaje de programación que has seleccionado.
- * - Representa las diferentes sintaxis que existen de crear comentarios
- *   en el lenguaje (en una línea, varias...).
- * - Crea una variable (y una constante si el lenguaje lo soporta).
- * - Crea variables representando todos los tipos de datos primitivos
- *   del lenguaje (cadenas de texto, enteros, booleanos...).
- * - Imprime por terminal el texto: "¡Hola, [y el nombre de tu lenguaje]!"
- *
- * ¿Fácil? No te preocupes, recuerda que esta es una ruta de estudio y
- * debemos comenzar por el principio.
  """
-# Este es un comentario en una línea, usamos '#'. Visita el sitio oficial de Python en: https://www.python.org/
 """
-Este es un comentario
-que abarca varias líneas.
+#######################################################
+# 				#	EXERCISES	#
+# Create a comment in the code and place the URL of the official website of the
+# programming language you have selected.
+# Represent the different syntaxes for creating comments
+# in the language (single line, multiple...).
+# Create a variable (and a constant if the language supports it).
+# Create variables representing all the primitive data types
+# of the language (strings, integers, booleans...).
+# Print the text: "Hello, [and the name of your language]!" to the terminal.
+# Easy? Don't worry, remember that this is a study path and we must start from the beginning.
+#######################################################
+"""
+# This is a single-line comment, we use '#'. Visit the official Python website at: https://www.python.org/
+"""
+This is a comment
+that spans multiple lines.
 """
 
-# Creación de una variable y una constante (en Python, al definir una variable en MAYÚSCULAS se considera constante)
+# Creation of a variable and a constant (in Python, when defining a variable in UPPERCASE it is considered a constant)
 variable = 10
 CONSTANT = 3.1416
 
-# Tipos de datos primitivos
-str = "Hola mundo"
+# Primitive data types
+str = "Hello world"
 int = 42
 bool = True
 float = 3.14
@@ -40,5 +41,5 @@ list = [1, 2, 3]
 tuple = (1, 2, 3)
 dict = {"a": 1, "b": 2}
 
-# Imprimir por terminal
-print("¡Hola, Python!")
+# Print to the terminal
+print("Hello, Python!")
