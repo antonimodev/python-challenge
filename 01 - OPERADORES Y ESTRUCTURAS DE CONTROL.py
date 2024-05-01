@@ -135,6 +135,26 @@ print(f"'**=' operator: a **= 2 => a = {a}")
 a //= 2
 print(f"'//=' operator: a //= 2 => a = {a}")
 
+######################
+# IDENTITY OPERATORS #
+######################
+
+# 'is' operator
+# Returns True if both variables are the same object
+x = 5
+y = 5
+print(f"'is' operator: x is y = {x is y}")  # True
+
+# 'is not' operator
+# Returns True if both variables are not the same object
+a = [1, 2, 3]
+b = [1, 2, 3]
+print(f"'is not' operator: a is not b = {a is not b}")  # True
+
+# Note: 'is' and 'is not' are different from '==' and '!='
+# 'is' and 'is not' compare if two variables point to the same object in memory
+# '==' and '!=' compare the values of the objects
+
 #########################################################################################
 """ 				#	EXERCISES	#
 # Create a program that prints to the console all numbers between 10 and 55 (inclusive)
@@ -179,3 +199,21 @@ for i in range(100, 201):
 """
 #####################################################################
 
+def is_prime(number):
+	"""
+	Check if a number is prime.
+	
+	ARG TYPE: INT.
+	
+	RETURN VALUES: True or False.
+	"""
+	if number <= 1:
+		return False
+	for i in range(2, number):
+		if number % i == 0:
+			return False
+	return True
+
+for i in range (1, 1001):
+    if is_prime(i) and (i % 7 == 0) and (i % 5 != 0):
+        print(i)
