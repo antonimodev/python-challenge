@@ -155,10 +155,77 @@ print(f"'is not' operator: a is not b = {a is not b}")  # True
 # 'is' and 'is not' compare if two variables point to the same object in memory
 # '==' and '!=' compare the values of the objects
 
+########################
+# MEMBERSHIP OPERATORS #
+########################
+
+# List of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# in operator
+print(f"3 is in numbers: {3 in numbers}")  # Returns True because 3 is in the list
+
+# not in operator
+print(f"6 is not in numbers: {6 not in numbers}")  # Returns True because 6 is not in the list
+
+#####################
+# BITWISE OPERATORS #
+#####################
+
+# Bitwise AND operator
+# Performs a bitwise AND operation on the binary representations of two numbers
+print(f"Bitwise AND operator: 5 & 3 = {5 & 3}")  # Returns 1
+
+# Bitwise OR operator
+# Performs a bitwise OR operation on the binary representations of two numbers
+print(f"Bitwise OR operator: 5 | 3 = {5 | 3}")  # Returns 7
+
+# Bitwise XOR operator
+# Performs a bitwise XOR operation on the binary representations of two numbers
+print(f"Bitwise XOR operator: 5 ^ 3 = {5 ^ 3}")  # Returns 6
+
+# Bitwise NOT operator
+# Performs a bitwise NOT operation on the binary representation of a number
+print(f"Bitwise NOT operator: ~5 = {~5}")  # Returns -6
+
+# Left shift operator
+# Shifts the binary representation of a number to the left by a specified number of positions
+print(f"Left shift operator: 5 << 1 = {5 << 1}")  # Returns 10
+
+# Right shift operator
+# Shifts the binary representation of a number to the right by a specified number of positions
+print(f"Right shift operator: 5 >> 1 = {5 >> 1}")  # Returns 2
+
+####################
+# WALRUS OPERATOR #
+####################
+
+# Walrus operator (:=)
+# Assigns a value to a variable as part of an expression
+# Introduced in Python 3.8
+
+# Let's say we have a list of numbers
+numbers = list(range(1, 10))
+
+# We want to check if the length of the list is greater than 5
+# and print the length if it is. Without the walrus operator, we might do:
+
+length = len(numbers)
+if length > 5:
+    print(f"The list has more than 5 elements, it has {length} elements.")
+
+# With the walrus operator, we can do this in a more concise way:
+
+if (length := len(numbers)) > 5:
+    print(f"The list has more than 5 elements, it has {length} elements.")
+
+# It's more important focus on readability than efficiency, so Walrus may not
+# the best option
+
 #########################################################################################
 """ 				#	EXERCISES	#
-# Create a program that prints to the console all numbers between 10 and 55 (inclusive)
-# that are even and not equal to 16 or multiples of 3.
+# Create a program that prints to the console all numbers between (X) and (Y) (inclusive)
+# that are even and not equal to (Z) or multiples of (A).
 """
 #########################################################################################
 
