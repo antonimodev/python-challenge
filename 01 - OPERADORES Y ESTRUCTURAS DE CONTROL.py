@@ -14,9 +14,9 @@
  *
  * By carefully reviewing the possibilities, you may discover something new.
  """
-########################
-# ARITHMETIC OPERATORS #
-########################
+					########################
+					# ARITHMETIC OPERATORS #
+					########################
 
 # Addition operator
 addition = 2 + 2
@@ -46,9 +46,9 @@ print(f"Modulo operator: 2 % 2 = {modulo}")
 exponentiation = 2 ** 2
 print(f"Exponentiation operator: 2 ** 2 = {exponentiation}")
 
-#####################
-# LOGICAL OPERATORS #
-#####################
+					#####################
+					# LOGICAL OPERATORS #
+					#####################
 
 # '&&' operator // 'and'
 # Returns True if both operands are true
@@ -62,9 +62,9 @@ print(f"'or' operator: True or False = {True or False}")
 # Returns True if the operand is false (complement)
 print(f"'not' operator: not True = {not True}")
 
-########################
-# COMPARISON OPERATORS #
-########################
+					########################
+					# COMPARISON OPERATORS #
+					########################
 
 # '==' operator // Equal to
 # Returns True if both operands are equal
@@ -90,9 +90,9 @@ print(f"'>' operator: 10 > 20 = {10 > 20}")
 # Returns True if the left operand is greater than or equal to the right operand
 print(f"'>=' operator: 10 >= 20 = {10 >= 20}")
 
-########################
-# ASSIGNMENT OPERATORS #
-########################
+					########################
+					# ASSIGNMENT OPERATORS #
+					########################
 
 a = 10
 
@@ -135,9 +135,9 @@ print(f"'**=' operator: a **= 2 => a = {a}")
 a //= 2
 print(f"'//=' operator: a //= 2 => a = {a}")
 
-######################
-# IDENTITY OPERATORS #
-######################
+					######################
+					# IDENTITY OPERATORS #
+					######################
 
 # 'is' operator
 # Returns True if both variables are the same object
@@ -155,9 +155,9 @@ print(f"'is not' operator: a is not b = {a is not b}")  # True
 # 'is' and 'is not' compare if two variables point to the same object in memory
 # '==' and '!=' compare the values of the objects
 
-########################
-# MEMBERSHIP OPERATORS #
-########################
+					########################
+					# MEMBERSHIP OPERATORS #
+					########################
 
 # List of numbers
 numbers = [1, 2, 3, 4, 5]
@@ -168,9 +168,9 @@ print(f"3 is in numbers: {3 in numbers}")  # Returns True because 3 is in the li
 # not in operator
 print(f"6 is not in numbers: {6 not in numbers}")  # Returns True because 6 is not in the list
 
-#####################
-# BITWISE OPERATORS #
-#####################
+					#####################
+					# BITWISE OPERATORS #
+					#####################
 
 # Bitwise AND operator
 # Performs a bitwise AND operation on the binary representations of two numbers
@@ -196,14 +196,12 @@ print(f"Left shift operator: 5 << 1 = {5 << 1}")  # Returns 10
 # Shifts the binary representation of a number to the right by a specified number of positions
 print(f"Right shift operator: 5 >> 1 = {5 >> 1}")  # Returns 2
 
-####################
-# WALRUS OPERATOR #
-####################
+					####################
+					# WALRUS OPERATOR #
+					####################
 
 # Walrus operator (:=)
 # Assigns a value to a variable as part of an expression
-# Introduced in Python 3.8
-
 # Let's say we have a list of numbers
 numbers = list(range(1, 10))
 
