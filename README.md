@@ -8,7 +8,7 @@ This repository documents my journey through the Python challenges from the [Roa
 |---|-----------|--------------|
 |00|[SYNTAX, VARIABLES, DATA TYPES AND HELLO WORLD!](https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/00%20-%20SINTAXIS%2C%20VARIABLES%2C%20TIPOS%20DE%20DATOS%20Y%20HOLA%20MUNDO/ejercicio.md)|[📝](https://github.com/antonimodev/python-challenge/blob/main/00%20-%20SINTAXIS%2C%20VARIABLES%2C%20TIPOS%20DE%20DATOS%20Y%20HOLA%20MUNDO.py)
 |01|[OPERATORS AND CONTROL STRUCTURES](https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/01%20-%20OPERADORES%20Y%20ESTRUCTURAS%20DE%20CONTROL/ejercicio.md)|[📝](https://github.com/antonimodev/python-challenge/blob/main/01%20-%20OPERADORES%20Y%20ESTRUCTURAS%20DE%20CONTROL.py)
-|02|[FUNCTIONS AND SCOPE](https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/01%20-%FUNCIONES%20Y%20ALCANCE/ejercicio.md)|[📝](https://github.com/antonimodev/python-challenge/blob/main/02%20-%20FUNCIONES%20Y%20ALCANCE.py)
+|02|[FUNCTIONS AND SCOPE](https://github.com/mouredev/roadmap-retos-programacion/blob/main/Roadmap/02%20-%20FUNCIONES%20Y%20ALCANCE/ejercicio.md)|[📝](https://github.com/antonimodev/python-challenge/blob/main/02%20-%20FUNCIONES%20Y%20ALCANCE.py)
 
 
 ...
