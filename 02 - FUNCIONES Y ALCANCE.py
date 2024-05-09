@@ -32,3 +32,76 @@
 def ft_example(): # We use "def_name_(parameters):" to define a new function.
 	return None  # Functions can return or not, it depends on what we want to do with it.
 
+def ft_example2():
+	return 1
+
+def ft_example3(a):
+	if (a == 0):
+		return("Hi!")
+	return("Bye!")
+
+def ft_recursive(number, is_original_call=True):
+    if number == 0 and is_original_call:
+        print("0")
+        return
+    if number < 0:
+        number = -number
+        print("-")
+    if number > 0:
+        ft_recursive(number // 10, False)
+        print(number % 10)
+
+# Test the recursive_print function
+
+ft_recursive(123)
+ft_recursive(0)
+
+# Recreation of function sum()
+
+def ft_sum(*args):
+    total = 0
+    for num in args:
+        total = total + num
+    print(f"Sum is: {total}")
+    return total
+
+# Test the recursive_print function
+
+ft_sum(12,12,24,2)
+
+# Now we're going to talk about local and global variables
+# Global variables can be used throughout the code without any restrictions.
+# Global variables must be declared as "global" before modifying them.
+# Local variables can be used within their own scope.
+
+variable_global = "Bye"
+print(variable_global)
+
+def ft_example4():
+      global variable_global
+      variable_global = "Hello"
+
+ft_example4()
+print(variable_global)
+
+# In the previous test we saw how it works, modify variables throughout the code.
+
+					#############
+					#  EXERCISE #
+					#############
+
+def ft_exercise(str1: str, str2: str):
+    count = 0
+    for number in range(1, 101):
+        if (number % 5 == 0 and number % 3 == 0):
+            count+= 1
+            print(f"This is both strings: {str1} and {str2}")
+        elif (number % 3 == 0):
+            count+= 1
+            print(f"This is the first string: {str1}")
+        elif (number % 5 == 0):
+            count+= 1
+            print(f"This is the second string: {str2}")
+    return (count)
+
+print(ft_exercise("Dog", "Cat"))
