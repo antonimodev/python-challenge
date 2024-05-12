@@ -38,9 +38,9 @@ print(f"Division operator: 2 / 2 = {division}")
 integer_division = 2 // 2
 print(f"Integer division operator: 2 // 2 = {integer_division}")
 
-# Modulo operator
-modulo = 2 % 2
-print(f"Modulo operator: 2 % 2 = {modulo}")
+# Module operator
+module = 2 % 2
+print(f"module operator: 2 % 2 = {module}")
 
 # Exponentiation operator
 exponentiation = 2 ** 2
@@ -120,8 +120,8 @@ print(f"'*=' operator: a *= 3 => a = {a}")
 a /= 4
 print(f"'/=' operator: a /= 4 => a = {a}")
 
-# '%=' operator // Modulo and assignment
-# Takes the modulo of the left operand with the right operand and assigns the result to the left operand
+# '%=' operator // Module and assignment
+# Takes the module of the left operand with the right operand and assigns the result to the left operand
 a %= 3
 print(f"'%=' operator: a %= 3 => a = {a}")
 
@@ -217,13 +217,14 @@ if length > 5:
 if (length := len(numbers)) > 5:
     print(f"The list has more than 5 elements, it has {length} elements.")
 
+# We assign numbers lenght to a variable lenght then we check if it is greater than 5.
 # It's more important focus on readability than efficiency, so Walrus may not
 # the best option
 
 #########################################################################################
 """ 				#	EXERCISES	#
 # Create a program that prints to the console all numbers between (X) and (Y) (inclusive)
-# that are even and not equal to (Z) or multiples of (A).
+that are even and not equal to (Z) or multiples of (A).
 """
 #########################################################################################
 
@@ -260,7 +261,7 @@ for i in range(100, 201):
 #####################################################################
 """ 				#	EXTRA	#
 # Create a program that prints all prime numbers between 1 and 1000
-# that are also multiples of 7 but not multiples of 5.
+that are also multiples of 7 but not multiples of 5.
 """
 #####################################################################
 

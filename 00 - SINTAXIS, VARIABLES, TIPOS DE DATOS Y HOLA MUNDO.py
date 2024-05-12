@@ -21,7 +21,7 @@
 # Easy? Don't worry, remember that this is a study path and we must start from the beginning.
 """
 #########################################################################################
-# This is a single-line comment, we use '#'. Visit the official Python website at: https://www.python.org/
+# This is a single-line comment, we use '#'.
 """
 This is a comment
 that spans multiple lines.
