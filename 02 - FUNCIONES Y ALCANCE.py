@@ -105,3 +105,44 @@ def ft_exercise(str1: str, str2: str):
     return (count)
 
 print(ft_exercise("Dog", "Cat"))
+
+#####################################################################
+""" 				#	EXTRA	#
+# Create a function that takes a list of integers and a target integer. The function should return a list of tuples.
+# Each tuple should contain two integers from the input list that add up to the target integer.
+# The same integer from the input list can be used in multiple tuples, but the same tuple should not appear more than once in the output list.
+# The order of the tuples and the order of the integers within the tuples does not matter.
+
+# For example, given the input list [1, 2, 3, 4, 5] and the target integer 5, the function should return [(1, 4), (2, 3)].
+
+# If no pairs add up to the target integer, the function should return an empty list.
+"""
+#####################################################################
+
+def ft_listoftuples(lst: list[int], target: int):
+    i = 0
+    my_lst = []
+    while ((i + 1) < len(lst)):
+        j = i + 1
+        while (j < len(lst)):
+            if (lst[i] + lst[j] == target):
+                my_lst.append((lst[i], lst[j]))
+            j+= 1
+        i+= 1
+    return my_lst
+
+print(ft_listoftuples([1,2,4], 4))
+
+"""
+
+Here we got another way to solve it, this time with for loop
+ 
+def ft_listoftuples(lst: list[int], target: int):
+    my_lst = []
+    for i in range(len(lst)):
+        for j in range(i + 1, len(lst)):
+            if (lst[i] + lst[j] == target):
+                my_lst.append((lst[i], lst[j]))
+    return my_lst 
+
+"""
