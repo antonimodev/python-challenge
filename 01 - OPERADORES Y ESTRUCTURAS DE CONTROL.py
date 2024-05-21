@@ -265,6 +265,7 @@ that are also multiples of 7 but not multiples of 5.
 """
 #####################################################################
 
+
 def is_prime(number):
 	"""
 	Check if a number is prime.
@@ -280,6 +281,7 @@ def is_prime(number):
 			return False
 	return True
 
-for i in range (1, 1001):
+
+for i in range(1, 1001):
     if is_prime(i) and (i % 7 == 0) and (i % 5 != 0):
         print(i)

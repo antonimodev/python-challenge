@@ -32,13 +32,16 @@
 def ft_example(): # We use "def_name_(parameters):" to define a new function.
 	return None  # Functions can return or not, it depends on what we want to do with it.
 
+
 def ft_example2():
 	return 1
 
+
 def ft_example3(a):
 	if (a == 0):
-		return("Hi!")
-	return("Bye!")
+		return ("Hi!")
+	return ("Bye!")
+
 
 def ft_recursive(number, is_original_call=True):
     if number == 0 and is_original_call:
@@ -90,19 +93,21 @@ print(variable_global)
 					#  EXERCISE #
 					#############
 
+
 def ft_exercise(str1: str, str2: str):
     count = 0
     for number in range(1, 101):
         if (number % 5 == 0 and number % 3 == 0):
-            count+= 1
+            count += 1
             print(f"This is both strings: {str1} and {str2}")
         elif (number % 3 == 0):
-            count+= 1
+            count += 1
             print(f"This is the first string: {str1}")
         elif (number % 5 == 0):
-            count+= 1
+            count += 1
             print(f"This is the second string: {str2}")
     return (count)
+
 
 print(ft_exercise("Dog", "Cat"))
 
@@ -119,6 +124,7 @@ print(ft_exercise("Dog", "Cat"))
 """
 #####################################################################
 
+
 def ft_listoftuples(lst: list[int], target: int):
     i = 0
     my_lst = []
@@ -127,11 +133,12 @@ def ft_listoftuples(lst: list[int], target: int):
         while (j < len(lst)):
             if (lst[i] + lst[j] == target):
                 my_lst.append((lst[i], lst[j]))
-            j+= 1
-        i+= 1
+            j += 1
+        i += 1
     return my_lst
 
-print(ft_listoftuples([1,2,4], 4))
+
+print(ft_listoftuples([1, 2, 4], 4))
 
 """
 

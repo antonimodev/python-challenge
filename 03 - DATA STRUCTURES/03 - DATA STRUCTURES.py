@@ -17,7 +17,7 @@
 					#############
 					#   LISTS   #
 					#############
-     
+	 
 # Lists are grouped elements in an order that can vary either by adding/removing
 # Or modifying elements of that list.
 # Lists use the syntax []
@@ -50,7 +50,7 @@ print(my_list)  # Prints the sorted list.
 					#############
 					#   TUPLES  #
 					#############
-     
+	 
 # Tuples are immutable lists, they cannot be modified.
 # Tuples use the syntax ()
 
@@ -77,7 +77,7 @@ print(3 in my_tuple)  # Prints True if 3 is in the tuple, False otherwise
 					################
 					# DICTIONARIES #
 					################
-     
+	 
 # Dictionaries are unordered elements but have a relationship between pairs.
 # Dictionaries use the syntax {}
 
@@ -98,7 +98,7 @@ my_dict.update(my_other_dict)  # Updates a dictionary with the information from 
 					#############
 					#   SETS    #
 					#############
-     
+	 
 # Sets are a list of unique elements. Duplicates are not allowed.
 # Sets use the syntax {} like in dictionaries, only they are not associated
 # In pairs.
@@ -136,20 +136,39 @@ print(my_set)  # Prints the set.
 					#############
 					#  EXERCISE #
 					#############
-     
-while True:
-    user_choice = input("""
-	¡Hola, bienvenid@ a tu agenda telefónica!
-	¿Qué quieres hacer?
-	1.- Agregar contacto
-	2.- Eliminar contacto
-	3.- Salir del programa
-	""")
-    if user_choice.isdigit():
-        user_choice = int(user_choice)
-        if user_choice in [1, 2, 3]:
-            break
-        else:
-            print("Por favor, introduce 1, 2 o 3.")
-    else:
-        print("Por favor introduzca un número")
+
+from my_functions import *
+
+
+def phonebook():
+	"""
+	Phonebook exercise
+	"""
+	contact_list = {}
+	while True:
+		user_choice = input("""
+		Hello, welcome to your phone book!
+		What would you like to do?
+		1. Add contact
+		2. Remove contact
+		3. View contact list
+		4. Exit the program
+		""")
+		if user_choice.isdigit():
+			user_choice = int(user_choice)
+			if user_choice in [1, 2, 3, 4]:
+				if user_choice == 1:
+					add_contact(contact_list)
+				elif user_choice == 2:
+					remove_contact(contact_list)
+				elif user_choice == 3:
+					show_contact_list(contact_list)
+				elif user_choice == 4:
+					break
+			else:
+				print("Please enter 1, 2, 3, or 4.\n")
+		else:
+			print("Please enter a number.\n")
+
+if __name__ == "__main__":
+	phonebook()
